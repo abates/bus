@@ -1,10 +1,10 @@
 package bus
 
-import "github.com/cheekybits/genny/generic"
+import "github.com/joeshaw/gengen/generic"
 
-type Topic generic.Type
+type Topic generic.T
 
-type Message generic.Type
+type Message generic.T
 
 type publish struct {
 	msg   Message
