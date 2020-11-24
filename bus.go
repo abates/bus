@@ -2,9 +2,9 @@ package bus
 
 import "github.com/joeshaw/gengen/generic"
 
-type Topic generic.T
+type Topic interface{}
 
-type Message generic.U
+type Message generic.T
 
 type publish struct {
 	msg   Message
