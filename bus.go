@@ -4,7 +4,7 @@ import "github.com/joeshaw/gengen/generic"
 
 type Topic generic.T
 
-type Message generic.T
+type Message generic.U
 
 type publish struct {
 	msg   Message
